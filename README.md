@@ -4,7 +4,7 @@
 </p>
 
 ## Description
-This is nginx part of [YaTёrochka project](https://github.com/Kseen715/yaterochka). It's a web application written as a course work for the 3rd year of study at the university. 
+This is PostgreSQL part of [YaTёrochka project](https://github.com/Kseen715/yaterochka). It's a web application written as a course work for the 3rd year of study at the university. 
 
 The project is a web application for a fictional company that sells random goods. The application allows you to view the catalog of goods, view the history of orders, and also allows you to log in to your Admin account.
 
