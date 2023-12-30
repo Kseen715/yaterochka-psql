@@ -20,9 +20,9 @@ services:
       - "sh"
       - "./run.sh"
     environment:
-      POSTGRES_DB: "postgres"
-      POSTGRES_USER: "postgres"
-      POSTGRES_PASSWORD: "root"
+      POSTGRES_DB: <database>
+      POSTGRES_USER: <username>
+      POSTGRES_PASSWORD: <password>
       PGDATA: "/var/lib/postgresql/data/pgdata"
     volumes:
       - /mnt/d/ydb/yat-db-init:/docker-entrypoint-initdb.d    # PostgreSQL entrypoint path
